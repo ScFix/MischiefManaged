@@ -4,11 +4,6 @@ import './App.css';
 import CommentBox from "./CommentBox/CommentBox";
 
 class App extends Component {
-  i = 0;
-  tick(){
-    
-  }
-
   render() {
     return (
       <div className="App">
