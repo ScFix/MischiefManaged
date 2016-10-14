@@ -24,9 +24,11 @@ This project is essentially for me to learn the core design principles of the re
   - have a basic list view of all the Mischiefs in the order they have happened. 
   - upon selecting a mischief you navigate to a new view where you view all this pictures in the order that they happened
   - Push to live
+
 ### 2. Design the time line & dynamic backend data
   - have the time line draw properly on the webpage
   - have the design modify to how the mischiefs are displayed when you resize the window
   - take all the data and append it into a database struct that fits the best for this situation
+  
 ### 3. Polish
   - I have nothing specific in this phase but this will mostly be know for me to tie up any loose ends
