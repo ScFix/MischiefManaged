@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
-import CommentBox from "./CommentBox/CommentBox";
+
+
+//these are the components for the app
 
 class App extends Component {
   render() {
@@ -11,10 +14,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/comment">Comment</Link></li>
+        </ul>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <CommentBox />
+        {this.props.children}
       </div>
     );
   }
