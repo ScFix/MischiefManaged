@@ -11,6 +11,8 @@ ReactDOM.render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <Route path="comment" component={Comment} />
+      <Route path="Story" component={Comment} />
+      <Route path="Event" component={Comment} />
     </Route>
   </Router>
 ), document.getElementById('root'))

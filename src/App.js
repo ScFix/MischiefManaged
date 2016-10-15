@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
 
+import Navigation from "./Navigation/Navigation"
 
 //these are the components for the app
 
@@ -14,9 +14,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
+        <Navigation />
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/comment">Comment</Link></li>
+          <li>item</li>
         </ul>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

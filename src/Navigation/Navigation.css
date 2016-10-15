@@ -1,0 +1,24 @@
+#Navi li  {
+   list-style-type: none; 
+}
+
+@media(max-width: 450px){
+    #Navi ul{
+        display: inline-table;
+        list-style-type: none;
+        width: 100%;
+        padding:0;
+    }
+    #Navi li{
+        display: inherit;
+        width:33.3%;        
+    }
+    #Navi{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    #Navi li a div{
+        display: block;
+    }
+}
