@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import Comment from './CommentBox/CommentBox'
-import MischiefTile from "./MischiefTile/MischiefTile"
+import Comment from './Component/CommentBox/CommentBox'
+import MischiefTile from "./Component/MischiefTile/MischiefTile"
 
 import './index.css';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
