@@ -6,7 +6,7 @@ import './Navigation.css';
 class Navigation extends Component {
     render() {
         return (
-            <div id='Navi'>
+            <div id='Navigation'>
                 <ul>
                     <li> <Link to="/"><div>Home</div></Link></li>
                     <li> <Link to="/Event"><div>Event</div></Link></li>

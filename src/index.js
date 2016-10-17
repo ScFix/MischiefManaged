@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 import Comment from './CommentBox/CommentBox'
+import MischiefTile from "./MischiefTile/MischiefTile"
 
 import './index.css';
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
+      <IndexRoute component={MischiefTile} />``
       <Route path="comment" component={Comment} />
       <Route path="Story" component={Comment} />
       <Route path="Event" component={Comment} />

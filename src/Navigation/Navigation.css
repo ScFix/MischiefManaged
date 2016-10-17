@@ -1,24 +1,24 @@
-#Navi li  {
+#Navigation li  {
    list-style-type: none; 
 }
 
 @media(max-width: 450px){
-    #Navi ul{
+    #Navigation ul{
         display: inline-table;
         list-style-type: none;
         width: 100%;
         padding:0;
     }
-    #Navi li{
+    #Navigation li{
         display: inherit;
         width:33.3%;        
     }
-    #Navi{
+    #Navigation{
         position: absolute;
         bottom: 0px;
         width: 100%;
     }
-    #Navi li a div{
+    #Navigation li a div{
         display: block;
     }
 }
