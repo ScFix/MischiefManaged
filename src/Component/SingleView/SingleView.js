@@ -3,16 +3,16 @@ import { Link } from 'react-router';
 
 import ImageCard from "../ImageCard/ImageCard"
 
-import './MischiefTile.css';
+import './SingleView.css';
 
-class MischiefTile extends Component {
+class SingleView extends Component {
     render() {
         return (
-            <div id='MischiefTile'>
+            <div id='SingleView'>
                 <ImageCard />
             </div>
         );
     }
 }
 
-export default MischiefTile;
+export default SingleView;
