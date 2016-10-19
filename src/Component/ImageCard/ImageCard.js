@@ -8,7 +8,7 @@ class ImageCard extends Component {
         let { i, trips } = this.props;
         return (
             <div id='ImageCard'>
-                <img src={trips[i].image} ></img>
+                <img src={trips[i].imageUrl} ></img>
                 <p>{trips[i].location}</p>
             </div>
         );
