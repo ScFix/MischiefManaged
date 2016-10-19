@@ -15,7 +15,9 @@ class App extends Component {
           <h2>Mischief Managed</h2>
         </div>
         <Navigation />
-        {React.cloneElement(this.props.children, this.props)}
+        <div className='Content'>
+          {React.cloneElement(this.props.children, this.props)}
+        </div>
       </div>
     );
   }

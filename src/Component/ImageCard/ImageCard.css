@@ -1,0 +1,6 @@
+#ImageCard{
+    margin: 1em;
+}
+#ImageCard img{
+    max-width: 100%
+}

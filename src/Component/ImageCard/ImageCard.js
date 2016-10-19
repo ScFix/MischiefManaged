@@ -5,9 +5,11 @@ import './ImageCard.css';
 
 class ImageCard extends Component {
     render() {
+        let { i, trips } = this.props;
         return (
             <div id='ImageCard'>
-                <p>I am a image!</p>
+                <img src={trips[i].image} ></img>
+                <p>{trips[i].location}</p>
             </div>
         );
     }

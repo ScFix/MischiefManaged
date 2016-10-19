@@ -14,7 +14,7 @@
         width:33.3%;        
     }
     #Navigation{
-        position: absolute;
+        position: fixed;
         bottom: 0px;
         width: 100%;
     }
