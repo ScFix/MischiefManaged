@@ -16,7 +16,7 @@ const defaultState = {
 };
 
 const store = createStore(rootReducer, defaultState);
-
+console.log(trips);
 export const history = syncHistoryWithStore(browserHistory, store);
 
 export default store;

@@ -8,7 +8,7 @@ class CollectionView extends Component {
     render() {
         return (
             <div id='CollectionView'>
-                { JSON.stringify(this.props.trips,null,' ')}
+                { [... this.props.trips].map((trip, i) => <ImageCard {... this.props} key={i} i={i} />) }
             </div>
         );
     }
