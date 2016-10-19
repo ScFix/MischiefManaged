@@ -12,10 +12,10 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Mischief Managed</h2>
         </div>
         <Navigation />
-        {this.props.children}
+        {React.cloneElement(this.props.children, this.props)}
       </div>
     );
   }
