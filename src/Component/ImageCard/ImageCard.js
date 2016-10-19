@@ -7,7 +7,7 @@ class ImageCard extends Component {
     render() {
         return (
             <div id='ImageCard'>
-                <p>Image UP BUDDY!</p>
+                <p>I am a image!</p>
             </div>
         );
     }

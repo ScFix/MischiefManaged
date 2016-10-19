@@ -1,14 +1,12 @@
-const Trips = [
-    {
-        code: '1',
+const Trips = {
+   '1': {
         location: 'Savannah',
         id: '12'
     },
-    {
-        code: '2',
+   '2': {
         location: 'Preston',
         id: '13'
     }
-];
+};
 
 export default Trips;
