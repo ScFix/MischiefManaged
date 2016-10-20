@@ -17,8 +17,11 @@ ReactDOM.render((
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={Main}>
-        <IndexRoute component={TripsView} />``
-        <Route path="Trips/:code" component={PostsView} />
+        <IndexRoute component={TripsView} />
+        <Route path="Trips/:code" >
+          <IndexRoute component={PostsView} />
+          <Route path=":picCode"component={SingleView}/>
+        </Route>
         <Route path="Story" component={Comment} />
         <Route path="Event" component={Comment} />
       </Route>

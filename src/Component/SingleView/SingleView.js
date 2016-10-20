@@ -9,7 +9,7 @@ class SingleView extends Component {
     render() {
         return (
             <div id='SingleView'>
-                <ImageCard />
+                <p>singleview</p>
             </div>
         );
     }
