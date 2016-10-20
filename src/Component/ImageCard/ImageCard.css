@@ -1,5 +1,19 @@
 #ImageCard{
     margin: 1em;
+    border-color: #efefef;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    min-width: 300px;    
+    max-width: 500px;
+    max-height: 600px;
+    padding:3px;
+
+    border-bottom-color:rgb(208,209,213);
+    border-top-color:rgb(229,230,233);
+    border-left-color:rgb(223,224,228);
+    border-right-color:rgb(223,224,228);
+    
 }
 #ImageCard img{
     max-width: 100%
