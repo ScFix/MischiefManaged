@@ -3,6 +3,7 @@
 }
 
 @media(max-width: 450px){
+
     #Navigation ul{
         display: inline-table;
         list-style-type: none;
@@ -11,12 +12,18 @@
     }
     #Navigation li{
         display: inherit;
-        width:33.3%;        
+        width:33.3%;
+     
     }
     #Navigation{
         position: fixed;
         bottom: 0px;
         width: 100%;
+        background-color: white;
+        
+        border-top-color:rgb(208,209,213);
+        border-top-style: solid;
+        border-top-width: 1px;
     }
     #Navigation li a div{
         display: block;

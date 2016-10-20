@@ -8,9 +8,9 @@ class Navigation extends Component {
         return (
             <div id='Navigation'>
                 <ul>
-                    <li> <Link to="/"><div>Home</div></Link></li>
-                    <li> <Link to="/Event"><div>Event</div></Link></li>
-                    <li> <Link to="/Story"><div>Story</div></Link></li>
+                    <li> <Link to="/"><div className='NavigationContent'>Home</div></Link></li>
+                    <li> <Link to="/Event"><div className='NavigationContent'>Event</div></Link></li>
+                    <li> <Link to="/Story"><div className='NavigationContent'>Story</div></Link></li>
                 </ul>
             </div>
         );
