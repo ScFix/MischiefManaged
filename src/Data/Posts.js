@@ -1,5 +1,5 @@
 const Posts = {
-    '3': [
+    3: [
         {
             code: 11,
             caption: 'More Sunset!',

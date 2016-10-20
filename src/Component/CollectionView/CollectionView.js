@@ -6,9 +6,10 @@ import ImageCard from "../ImageCard/ImageCard";
 
 class CollectionView extends Component {
     render() {
+        let {items} = this.props;
         return (
             <div id='CollectionView'>
-                { [... this.props.trips].map((trip, i) => <ImageCard {... this.props} key={i} i={i} />) }
+                {[...items].map((item, i) => <ImageCard {... this.props} item={item} key={i} i={i} />)}
             </div>
         );
     }

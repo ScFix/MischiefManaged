@@ -7,7 +7,7 @@ import store, { history } from './store';
 
 import Main from './Component/Main';
 import Comment from './Component/CommentBox/CommentBox'
-import CollectionView from "./Component/CollectionView/CollectionView"
+import {TripsView, PostsView}  from "./Component/ViewAdapters/CollectionViewAdapters";
 import SingleView from "./Component/SingleView/SingleView";
 
 import './index.css';
@@ -17,8 +17,8 @@ ReactDOM.render((
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={Main}>
-        <IndexRoute component={CollectionView} />``
-        <Route path="Trips/:code" component={SingleView} />
+        <IndexRoute component={TripsView} />``
+        <Route path="Trips/:code" component={PostsView} />
         <Route path="Story" component={Comment} />
         <Route path="Event" component={Comment} />
       </Route>
