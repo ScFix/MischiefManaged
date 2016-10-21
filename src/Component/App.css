@@ -1,3 +1,5 @@
+/* All App Wide css should go into this file*/
+
 .App {
   text-align: center;
   background-color: #e9ebee;
@@ -10,7 +12,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 20vh;
   padding: 20px;
   color:black;
   background-image:url(//c3.staticflickr.com/1/44/167285658_e9d493f658_b.jpg);
@@ -23,6 +25,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.Content{
+  min-height:70vh;
 }
 @media(max-width: 450px){
   .App > .Content{
