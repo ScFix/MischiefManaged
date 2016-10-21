@@ -18,7 +18,7 @@ class ImageCard extends Component {
         var localPath = this.generatePath(path, item, location);
         return (
             <Link to={localPath}>
-                <div id='ImageCard'>
+                <div id='ImageCard' className='Card'>
                     <div className='ImageConatainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
                     </div>
                     <p>{item.location}</p>
