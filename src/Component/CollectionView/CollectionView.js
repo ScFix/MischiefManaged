@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //import { Link } from 'react-router';
 
 import ImageCard from "../ImageCard/ImageCard";
-
+import './CollectionView.css';
 
 class CollectionView extends Component {
     render() {
