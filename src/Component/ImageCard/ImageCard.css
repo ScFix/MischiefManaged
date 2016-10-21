@@ -3,10 +3,8 @@
     border-color: #efefef;
     border-style: solid;
     border-width: 1px;
-    background-color: white;
-    min-width: 300px;    
+    background-color: white;    
     max-width: 500px;
-    max-height: 600px;
     padding:3px;
 
     border-bottom-color:rgb(208,209,213);
@@ -15,6 +13,13 @@
     border-right-color:rgb(223,224,228);
     
 }
-#ImageCard img{
-    max-width: 100%
+
+#ImageCard .ImageConatainer{
+    left: 0;
+    top: 0;
+    height: 50vh;
+    max-width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

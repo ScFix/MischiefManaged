@@ -19,10 +19,11 @@ class ImageCard extends Component {
         return (
             <Link to={localPath}>
                 <div id='ImageCard'>
-                    <img src={item.imageUrl} ></img>
+                    <div className='ImageConatainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+                    </div>
                     <p>{item.location}</p>
                 </div>
-            </Link>
+            </Link >
         );
     }
 }
