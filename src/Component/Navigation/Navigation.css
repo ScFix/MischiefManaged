@@ -9,6 +9,7 @@
         list-style-type: none;
         width: 100%;
         padding:0;
+        margin: 0px;
     }
     #Navigation li{
         display: inherit;
@@ -27,5 +28,8 @@
     }
     #Navigation li a div{
         display: block;
+    }
+    #Navigation .NavigationContent{
+        margin-top:2px;
     }
 }

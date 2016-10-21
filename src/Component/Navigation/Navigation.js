@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 import './Navigation.css';
+import home from '../../home.svg';
+import about from '../../about.svg';
+import event from '../../event.svg';
 
 class Navigation extends Component {
     render() {
         return (
             <div id='Navigation'>
                 <ul>
-                    <li> <Link to="/"><div className='NavigationContent'>Home</div></Link></li>
-                    <li> <Link to="/Event"><div className='NavigationContent'>Event</div></Link></li>
-                    <li> <Link to="/Story"><div className='NavigationContent'>Story</div></Link></li>
+                    <li> <Link to="/"><div className='NavigationContent'><img src={home}></img></div></Link></li>
+                    <li> <Link to="/Event"><div className='NavigationContent'><img src={event}></img></div></Link></li>
+                    <li> <Link to="/About"><div className='NavigationContent'><img src={about}></img></div></Link></li>
                 </ul>
             </div>
         );
