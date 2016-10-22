@@ -47,3 +47,6 @@
     border-right-color:rgb(223,224,228);
     box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)
 }
+ul, ol{
+  padding: 0;
+}

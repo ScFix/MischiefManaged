@@ -1,10 +1,7 @@
 #ImageCard{
-    
+    margin:auto;
     max-width: 500px;
-    padding:3px;
-
-
-    
+    padding:3px;   
 }
 
 #ImageCard .ImageConatainer{

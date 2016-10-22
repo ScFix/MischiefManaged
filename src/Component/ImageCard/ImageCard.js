@@ -17,14 +17,16 @@ class ImageCard extends Component {
         let { path, item, location } = this.props;
         var localPath = this.generatePath(path, item, location);
         return (
-            <Link to={localPath}>
-                <div id='ImageCard' className='Card'>
-                    <div className='ImageConatainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+            <div id='ImageCard' >
+                <Link to={localPath}>
+                    <div className='Card'>
+                        <div className='ImageConatainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+                        </div>
+                        <p>{item.location}</p>
                     </div>
-                    <p>{item.location}</p>
-                </div>
-            </Link >
-        );
+                </Link >
+            </div>
+        )
     }
 }
 
