@@ -27,7 +27,7 @@
   to { transform: rotate(360deg); }
 }
 .Content{
-  min-height:70vh;
+  min-height:80vh;
 }
 @media(max-width: 450px){
   .App > .Content{
