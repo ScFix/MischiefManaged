@@ -12,7 +12,7 @@ const Trips = [
         imageUrl: 'https://bvytta.dm2304.livefilestore.com/y3myMOOqfj3G8eGB6xz6qyP1V2l0sS7-qrVCKIJNmVKrRmq2CF8hD-A5DV3n7mhqdjZpKZJiaNq1MHRIQSZeNzVQn5P20c2Do4TpWZfUFSuMpTcTC2n-uuk_qN-Hib5TYmw1zyQ6l_LQ8I2_a4yJrT2PiGtk9bvzEdxHGrxskdznMQ?width=660&height=495&cropmode=none'
     },
     {
-        code: 3,
+        code: 'Clearwater',
         location: 'Clearwater, Fl',
         id: '13',
         imageUrl: 'https://s19.postimg.org/y8fzjinb7/IMG_4581.jpg'
