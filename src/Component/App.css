@@ -5,10 +5,10 @@
   background-color: #e9ebee;
 }
 
-.App-logo {
+/*.App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+}*/
 
 .App-header {
   background-color: #222;
@@ -16,16 +16,25 @@
   padding: 20px;
   color:black;
   background-image:url(//c3.staticflickr.com/1/44/167285658_e9d493f658_b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-intro {
+h1{
+  font-family: 'Niconne', cursive;
+  font-size:3.5em;
+}
+.App-header > h1{
+    margin: 0;
+}
+/*.App-intro {
   font-size: large;
-}
+}*/
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
 .Content{
   min-height:80vh;
 }
