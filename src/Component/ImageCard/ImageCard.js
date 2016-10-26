@@ -21,7 +21,8 @@ class ImageCard extends Component {
                     <div className='Card'>
                         <div className='CardInfo'>
                             <h3>{item.title}</h3>
-                            <p>{item.location === undefined ? '' : item.location.name}</p>
+                            <p>{item.location === undefined ? '' : item.location.name + ' ' + item.date}</p>
+
                         </div>
                         <div className='ImageContainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
                         </div>

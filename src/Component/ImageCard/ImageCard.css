@@ -32,8 +32,12 @@
         margin-top:0em;
         margin-bottom:.2em;
         text-align: left;
+        
     }
  .Card .CardInfo h3{
      padding-top: .2em;
  }
- 
+ .Card .CardInfo p{
+     font-size: .8em;
+     color: grey;
+ }
