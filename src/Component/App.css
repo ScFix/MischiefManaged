@@ -24,8 +24,11 @@ h1{
   font-family: 'Niconne', cursive;
   font-size:3.5em;
 }
-.App-header > h1{
+
+
+.App-header .AppTitle h1{
     margin: 0;
+    vertical-align: middle;
 }
 /*.App-intro {
   font-size: large;

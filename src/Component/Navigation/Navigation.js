@@ -11,9 +11,9 @@ class Navigation extends Component {
         return (
             <div id='Navigation'>
                 <ul>
-                    <li> <Link to="/"><div className='NavigationContent'><img src={home}></img></div></Link></li>
-                    <li> <Link to="/Event"><div className='NavigationContent'><img src={event}></img></div></Link></li>
-                    <li> <Link to="/About"><div className='NavigationContent'><img src={about}></img></div></Link></li>
+                    <li> <Link to="/"><div className='NavigationContent'><img src={home} role='presentation'></img></div></Link></li>
+                    <li> <Link to="/Event"><div className='NavigationContent'><img src={event} role='presentation'></img></div></Link></li>
+                    <li> <Link to="/About"><div className='NavigationContent'><img src={about} role='presentation'></img></div></Link></li>
                 </ul>
             </div>
         );

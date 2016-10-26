@@ -23,3 +23,17 @@
 #ImageCard > a::visited{
     color: black;
 }
+
+.Card .CardInfo{
+    margin-top: .5em;
+    margin-left: .5em;
+}
+    .Card .CardInfo h3, .Card .CardInfo p{
+        margin-top:0em;
+        margin-bottom:.2em;
+        text-align: left;
+    }
+ .Card .CardInfo h3{
+     padding-top: .2em;
+ }
+ 
