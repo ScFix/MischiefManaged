@@ -41,3 +41,16 @@
      font-size: .8em;
      color: grey;
  }
+
+#ImageCard .ActionBar{
+    display: flex;
+}
+
+#ImageCard  .ActionBar .Likes {
+    
+}
+
+ #ImageCard .ActionBar .Likes img{
+     height: 30px;
+     width:30px;
+ }

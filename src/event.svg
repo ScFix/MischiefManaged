@@ -14,7 +14,7 @@
    preserveAspectRatio="xMidYMid meet"
    id="svg3474"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Info-64.svg">
+   sodipodi:docname="event.svg">
   <defs
      id="defs3484" />
   <sodipodi:namedview
@@ -26,17 +26,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1045"
-     inkscape:window-height="683"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview3482"
      showgrid="false"
-     inkscape:zoom="4.8366104"
-     inkscape:cx="16.869895"
-     inkscape:cy="33.043467"
-     inkscape:window-x="2531"
-     inkscape:window-y="50"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3474" />
+     inkscape:zoom="6.84"
+     inkscape:cx="-14.216428"
+     inkscape:cy="28.149305"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="flowRoot3488" />
   <metadata
      id="metadata3476">
 Created by potrace 1.13, written by Peter Selinger 2001-2015
@@ -59,7 +59,7 @@ Created by potrace 1.13, written by Peter Selinger 2001-2015
        id="path3480" />
   </g>
   <g
-     transform="matrix(1.075603,0,0,1.0427514,-2.8354844,-11.9332)"
+     transform="matrix(1.075603,0,0,1.0427514,-2.5046742,-12.59482)"
      style="font-style:normal;font-weight:normal;font-size:6.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="flowRoot3488">
     <text
@@ -73,14 +73,27 @@ Created by potrace 1.13, written by Peter Selinger 2001-2015
          sodipodi:role="line"
          id="tspan3510"
          x="19.629515"
-         y="26.901407"></tspan></text>
-    <g
-       transform="matrix(1.3858469,0,0,1.2035495,-14.340167,-5.3393734)"
-       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot3512">
+         y="26.901407" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3339"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.4875377,0,0,1.5344022,2.3286233,12.078449)"><flowRegion
+         id="flowRegion3341"><rect
+           id="rect3343"
+           width="8.270256"
+           height="11.991869"
+           x="9.0972805"
+           y="8.5067997"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3345">FF</flowPara></flowRoot>    <g
+       transform="matrix(0.98461034,0,0,1.0156302,-0.86990508,-0.2243278)"
+       style="font-style:normal;font-weight:normal;font-size:9.44242668px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text3347">
       <path
-         d="m 32.427246,39.553716 -7.185059,0 0,-10.905762 7.185059,0 0,1.289063 -5.734863,0 0,2.988281 5.734863,0 0,1.289063 -5.734863,0 0,4.050293 5.734863,0 0,1.289062 z"
-         id="path3521"
+         d="m 31.844688,29.856013 -7.637853,0 0,4.260157 6.56267,0 0,1.785209 -6.56267,0 0,7.272697 -2.00836,0 0,-15.103272 9.646213,0 0,1.785209 z"
+         style="font-size:20.77333832px"
+         id="path3352"
          inkscape:connector-curvature="0" />
     </g>
   </g>

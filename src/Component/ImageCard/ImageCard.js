@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 import './ImageCard.css';
+
+import heartGray from '../../heartGray.svg';
+import heartRed from '../../heartRed.svg';
+
 //need to just pass the imageurl to this in the props themselves
 export class TripImageCard extends Component {
 
@@ -44,6 +48,11 @@ export class PostImageCard extends Component {
                         <h3>{item.title}</h3>
                     </div>
                     <div className='ImageContainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+                    </div>
+                    <div className='ActionBar'>
+                        <div className='Likes'>
+                            <img src={item.liked ? heartRed : heartGray} role='presentation' />
+                        </div>
                     </div>
                 </div>
             </div>);

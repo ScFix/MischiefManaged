@@ -12,7 +12,7 @@ export class PostsView extends Component {
 
         return (
             <div id='PostsView' >
-                <SimpleCardCollection {... this.props} items={posts[params.code]} />
+                <AllPurposeCardCollection {... this.props} items={posts[params.code]} />
             </div>
         );
     }
