@@ -47,9 +47,12 @@
 }
 
 #ImageCard  .ActionBar .Likes {
-    
+    display: inline-table
 }
-
+#ImageCard  .ActionBar .Likes span {
+    display: table-cell;
+    vertical-align: middle;
+}
  #ImageCard .ActionBar .Likes img{
      height: 30px;
      width:30px;

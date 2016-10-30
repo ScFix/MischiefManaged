@@ -51,7 +51,9 @@ export class PostImageCard extends Component {
                     </div>
                     <div className='ActionBar'>
                         <div className='Likes'>
-                            <img src={item.liked ? heartRed : heartGray} role='presentation' />
+                            <img src={item.liked ? heartRed : heartGray} role='presentation' >
+                            </img>
+                            <span>{item.likes}</span>
                         </div>
                     </div>
                 </div>
