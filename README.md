@@ -23,6 +23,7 @@ This project is essentially for me to learn the core design principles of the re
     - this will be stored in a json file on the server. This wil not be a dynamically updated in a database  
   - have a basic list view of all the Mischiefs in the order they have happened. 
   - upon selecting a mischief you navigate to a new view where you view all this pictures in the order that they happened
+  - add a future view to manage new and upcoming trips
   - Push to live
 
 ### 2. Design the time line & dynamic backend data
