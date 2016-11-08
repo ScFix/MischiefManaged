@@ -27,9 +27,10 @@ This project is essentially for me to learn the core design principles of the re
   - Push to live
 
 ### 2. Design the time line & dynamic backend data
-  - have the time line draw properly on the webpage
   - have the design modify to how the mischiefs are displayed when you resize the window
   - take all the data and append it into a database struct that fits the best for this situation
+  - add a dynamic login to the future page that allows for the editing of the said events
   
 ### 3. Polish
-  - I have nothing specific in this phase but this will mostly be know for me to tie up any loose ends
+  - Add transitions to all pages to make the seem smoothly generated
+  
