@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import { Link } from 'react-router';
 
-import { TripImageCard, PostImageCard } from "../ImageCard/ImageCard";
+import { TripImageCard, CommentImageCard } from "../ImageCard/ImageCard";
 import './CollectionView.css';
 
 // these collSimpleCardCollectiona group of Items to be in the props
@@ -21,7 +21,7 @@ export class AllPurposeCardCollection extends Component {
         let {items} = this.props;
         return (
             <div id='CollectionView'>
-                {[...items].map((item, i) => <PostImageCard {... this.props} item={item} key={i} i={i} />)}
+                {[...items].map((item, i) => <CommentImageCard {... this.props} item={item} key={i} i={i} />)}
             </div>
         );
     }

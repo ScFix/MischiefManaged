@@ -38,7 +38,7 @@ export class TripImageCard extends Component {
     }
 }
 
-export class PostImageCard extends Component {
+export class CommentImageCard extends Component {
     render() {
         let {item} = this.props;
         return (
@@ -54,6 +54,13 @@ export class PostImageCard extends Component {
                             <img src={item.liked ? heartRed : heartGray} role='presentation' >
                             </img>
                             <span>{item.likes}</span>
+                        </div>
+                    </div>
+                    <div className='CommentSection'>
+                        <div className='PostedComments'>
+                        </div>
+                        <div className='AddComment'>
+                            Add a Comment
                         </div>
                     </div>
                 </div>
