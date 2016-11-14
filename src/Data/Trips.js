@@ -1,13 +1,13 @@
 const Trips = [
     {
-        code: 2,
+        code: 'London15',
         location: {
-            name: 'Savannah, Ga',
+            name: 'London, England',
             imageUrl: ''
         },
-        title: 'Local Fun',
-        imageUrl: 'https://c8.staticflickr.com/4/3188/2860614807_a0eb46bea5.jpg',
-        date: '3/16'
+        title: 'Big London, Little Time',
+        imageUrl: 'http://i.imgur.com/iGzBuuk.jpg',
+        date: '12/16'
     },
     {
         code: 'Glasgow15',
