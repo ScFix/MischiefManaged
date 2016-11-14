@@ -1,9 +1,12 @@
+
+
 //increment 
-export function increment(index) {
+export function increment(index, code) {
     return {
         type: 'INCREMENT_LIKES',
-        index
-    }
+        index,
+        code
+    };
 }
 //add comment
 export function addComment(postId, author, comment) {

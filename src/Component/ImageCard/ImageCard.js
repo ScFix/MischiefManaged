@@ -29,7 +29,7 @@ export class TripImageCard extends Component {
                             <p>{item.location === undefined ? '' : item.location.name + ' ' + item.date}</p>
 
                         </div>
-                        <div className='ImageContainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+                        <div className='ImageContainer' style={{ "backgroundImage": "url(" + item.imageUrl + ")" }}>
                         </div>
                     </div>
                 </Link >
@@ -39,18 +39,19 @@ export class TripImageCard extends Component {
 }
 
 export class CommentImageCard extends Component {
+
     render() {
-        let {item} = this.props;
+        let {item, i, code} = this.props;
         return (
             <div id='ImageCard'>
                 <div className='Card'>
                     <div className='CardInfo'>
                         <h3>{item.title}</h3>
                     </div>
-                    <div className='ImageContainer' style={{ "background-image": "url(" + item.imageUrl + ")" }}>
+                    <div className='ImageContainer' style={{ "backgroundImage": "url(" + item.imageUrl + ")" }}>
                     </div>
                     <div className='ActionBar'>
-                        <div className='Likes'>
+                        <div className='Likes' onClick={this.props.increment.bind(null, i, code)}>
                             <img src={item.liked ? heartRed : heartGray} role='presentation' >
                             </img>
                             <span>{item.likes}</span>

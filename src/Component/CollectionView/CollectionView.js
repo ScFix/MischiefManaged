@@ -18,10 +18,10 @@ export class SimpleCardCollection extends Component {
 
 export class AllPurposeCardCollection extends Component {
     render() {
-        let {items} = this.props;
+        let {items, params} = this.props;
         return (
             <div id='CollectionView'>
-                {[...items].map((item, i) => <CommentImageCard {... this.props} item={item} key={i} i={i} />)}
+                {[...items].map((item, i) => <CommentImageCard {... this.props} item={item} key={i} i={i} code={params.code} />)}
             </div>
         );
     }
